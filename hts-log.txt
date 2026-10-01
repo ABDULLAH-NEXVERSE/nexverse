@@ -1,0 +1,28 @@
+HTTrack3.50-0 launched on Mon, 07 Sep 2026 17:31:11 at https://nexverse.co.uk/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2%f#f -F "Mozilla/5.0 (compatible; HTTrack; +https://www.httrack.com/)" -%F "<!-- Mirrored from {url} by HTTrack Website Copier/3.x [XR&CO], {date} -->" -%l "en, *" https://nexverse.co.uk/ -O1 "D:\MyWebsites\nexverse" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:32:14	Error: 	"Not Found" (404) at link https://nexverse.co.uk/wp-content/plugins/uicore-animate/assets/js/scroll-timeline.js (from https://nexverse.co.uk/)
+17:33:21	Error: 	"Not Found" (404) at link https://nexverse.co.uk/wp-content/plugins/bdthemes-element-pack/images/backgrounds/divider-icon.svg (from https://nexverse.co.uk/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.17.11)
+17:33:21	Error: 	"Not Found" (404) at link https://nexverse.co.uk/wp-content/plugins/bdthemes-element-pack/images/backgrounds/list-bullet.svg (from https://nexverse.co.uk/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.17.11)
+17:33:21	Error: 	"Not Found" (404) at link https://nexverse.co.uk/wp-content/plugins/bdthemes-element-pack/images/backgrounds/form-datalist.svg (from https://nexverse.co.uk/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.17.11)
+17:33:21	Error: 	"Not Found" (404) at link https://nexverse.co.uk/wp-content/img/select-arrow.svg (from https://nexverse.co.uk/wp-content/uploads/uicore-global.css?ver=6771)
+17:33:24	Warning: 	Moved Permanently for https://nexverse.co.uk/?p=435
+17:33:24	Warning: 	File has moved from https://nexverse.co.uk/?p=435 to https://nexverse.co.uk/services/
+17:33:31	Warning: 	Moved Permanently for https://nexverse.co.uk/?p=464
+17:33:31	Warning: 	File has moved from https://nexverse.co.uk/?p=464 to https://nexverse.co.uk/case-studies/
+17:33:31	Warning: 	Moved Permanently for https://nexverse.co.uk/?p=48
+17:33:31	Warning: 	File has moved from https://nexverse.co.uk/?p=48 to https://nexverse.co.uk/about-us/
+17:33:31	Warning: 	Moved Permanently for https://nexverse.co.uk/?p=46
+17:33:31	Warning: 	File has moved from https://nexverse.co.uk/?p=46 to https://nexverse.co.uk/contact/
+17:33:31	Error: 	"Not Found" (404) at link https://nexverse.co.uk/OPR/ (from https://nexverse.co.uk/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.2.4)
+17:33:31	Error: 	"Not Found" (404) at link https://nexverse.co.uk/services/l (from https://nexverse.co.uk/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5)
+17:33:31	Error: 	"Not Found" (404) at link https://nexverse.co.uk/services/e (from https://nexverse.co.uk/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5)
+17:33:31	Error: 	"Not Found" (404) at link https://nexverse.co.uk/services/t.params.url (from https://nexverse.co.uk/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5)
+
+HTTrack Website Copier/3.50-0 mirror complete in 2 minutes 20 seconds : 198 links scanned, 184 files written (5736315 bytes overall) [3862365 bytes received at 27588 bytes/sec], 2983308 bytes transferred using HTTP compression in 83 files, ratio 20%, 8.6 requests per connection
+(9 errors, 8 warnings, 0 messages)
