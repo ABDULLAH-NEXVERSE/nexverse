@@ -1,0 +1,13 @@
+import SiteHeader from '../../components/SiteHeader';
+import SiteFooter from '../../components/SiteFooter';
+import { ArrowUpRight } from 'lucide-react';
+
+const people = [
+  { name:'Usman', image:'/assets/team/usman-devops-lead.png', note:'FOUNDER & CEO' },
+  { name:'Haider', image:'/assets/team/haider.png', note:'CO-FOUNDER' },
+  { name:'Abdullah', image:'/assets/team/abdullah.png', note:'FULL-STACK DEVELOPER' },
+];
+
+export const metadata = { title: 'About Nexverse — The Team', description: 'Meet some of the people behind Nexverse.' };
+
+export default function AboutPage(){return <main className="inner-page about-page"><SiteHeader/><section className="inner-hero about-hero"><div className="inner-eyebrow">ABOUT NEXVERSE / THE PEOPLE BEHIND THE WORK</div><div className="about-hero-grid"><div><h1>Small team.<br/><i>Big picture.</i></h1><p>We bring strategy, design and engineering together to make digital products and systems that move businesses forward.</p><a className="quiet-link" href="#people">Meet the team <ArrowUpRight size={16}/></a></div><div className="about-image-frame"><img src="/assets/hero/about-banner-office.jpg" alt="Nexverse studio workspace"/></div></div></section><section className="people-section section-pad" id="people"><div className="section-kicker"><span>01 — THE TEAM</span><span>THOUGHTFUL PEOPLE, PRACTICAL MINDS.</span></div><div className="people-heading"><h2>Made by<br/><i>people.</i></h2><p>The people leading and building Nexverse.</p></div><div className="people-grid">{people.map((person,i)=><article className="person-card" key={person.name}><div className="person-image"><img src={person.image} alt={person.name} loading="lazy"/><span>0{i+1}</span></div><div className="person-meta"><h3>{person.name}</h3><span>{person.note}</span></div></article>)}</div></section><section className="about-studio section-pad"><div className="about-studio-image"><img src="/assets/hero/client-strategy-workshop.webp" alt="Team workshop" loading="lazy"/></div><div className="about-studio-copy"><span className="inner-eyebrow">HOW WE WORK</span><h2>Close collaboration.<br/><i>Clear outcomes.</i></h2><p>We listen first, bring the right mix of disciplines into the room, and keep the work connected from first conversation to launch.</p><a className="text-link" href="/services">Explore our capabilities <ArrowUpRight size={15}/></a></div></section><section className="about-cta section-pad"><span className="inner-eyebrow">LET’S GET TO KNOW YOUR IDEA</span><h2>What are you<br/><i>building next?</i></h2><a className="primary-link" href="/#contact">Start a conversation <ArrowUpRight size={16}/></a></section><SiteFooter/></main>}

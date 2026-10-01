@@ -1,0 +1,126 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\MyWebsites\nexverse\.npmrc
+5 silly config load:file:C:\Users\FUTURE LAPTOP\.npmrc
+6 silly config load:file:C:\Users\FUTURE LAPTOP\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install framer-motion
+8 verbose argv "install" "framer-motion" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:D:\MyWebsites\nexverse\.npm-cache\_logs\2026-10-01T13_48_54_952Z-
+10 verbose logfile D:\MyWebsites\nexverse\.npm-cache\_logs\2026-10-01T13_48_54_952Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest framer-motion@*
+15 silly packumentCache full:https://registry.npmjs.org/framer-motion cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 1114ms
+17 http fetch GET 200 https://registry.npmjs.org/framer-motion 1357ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/framer-motion set size:undefined disposed:false
+19 silly fetch manifest react@^19.3.0
+20 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/react 966ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+23 silly fetch manifest react-dom@^19.3.0
+24 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/react-dom 980ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+27 silly placeDep ROOT framer-motion@13.5.0 OK for: nexverse@1.0.0 want: *
+28 silly fetch manifest motion-dom@^13.5.0
+29 silly packumentCache full:https://registry.npmjs.org/motion-dom cache-miss
+30 silly fetch manifest motion-utils@^13.5.0
+31 silly packumentCache full:https://registry.npmjs.org/motion-utils cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/motion-utils 188ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/motion-utils set size:undefined disposed:false
+34 http fetch GET 200 https://registry.npmjs.org/motion-dom 192ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/motion-dom set size:undefined disposed:false
+36 silly placeDep ROOT motion-dom@13.5.0 OK for: framer-motion@13.5.0 want: ^13.5.0
+37 silly placeDep ROOT motion-utils@13.5.0 OK for: framer-motion@13.5.0 want: ^13.5.0
+38 silly reify moves {}
+39 silly audit bulk request {
+39 silly audit   '@emnapi/runtime': [ '1.11.3' ],
+39 silly audit   '@img/colour': [ '1.1.0' ],
+39 silly audit   '@img/sharp-darwin-arm64': [ '0.35.5' ],
+39 silly audit   '@img/sharp-darwin-x64': [ '0.35.5' ],
+39 silly audit   '@img/sharp-freebsd-wasm32': [ '0.35.5' ],
+39 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.3.4' ],
+39 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.3.4' ],
+39 silly audit   '@img/sharp-libvips-linux-arm': [ '1.3.4' ],
+39 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.3.4' ],
+39 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.3.4' ],
+39 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.3.4' ],
+39 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.3.4' ],
+39 silly audit   '@img/sharp-libvips-linux-x64': [ '1.3.4' ],
+39 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.3.4' ],
+39 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.3.4' ],
+39 silly audit   '@img/sharp-linux-arm': [ '0.35.5' ],
+39 silly audit   '@img/sharp-linux-arm64': [ '0.35.5' ],
+39 silly audit   '@img/sharp-linux-ppc64': [ '0.35.5' ],
+39 silly audit   '@img/sharp-linux-riscv64': [ '0.35.5' ],
+39 silly audit   '@img/sharp-linux-s390x': [ '0.35.5' ],
+39 silly audit   '@img/sharp-linux-x64': [ '0.35.5' ],
+39 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.35.5' ],
+39 silly audit   '@img/sharp-linuxmusl-x64': [ '0.35.5' ],
+39 silly audit   '@img/sharp-wasm32': [ '0.35.5' ],
+39 silly audit   '@img/sharp-webcontainers-wasm32': [ '0.35.5' ],
+39 silly audit   '@img/sharp-win32-arm64': [ '0.35.5' ],
+39 silly audit   '@img/sharp-win32-ia32': [ '0.35.5' ],
+39 silly audit   '@img/sharp-win32-x64': [ '0.35.5' ],
+39 silly audit   '@next/env': [ '16.3.8' ],
+39 silly audit   '@next/swc-darwin-arm64': [ '16.3.8' ],
+39 silly audit   '@next/swc-darwin-x64': [ '16.3.8' ],
+39 silly audit   '@next/swc-linux-arm64-gnu': [ '16.3.8' ],
+39 silly audit   '@next/swc-linux-arm64-musl': [ '16.3.8' ],
+39 silly audit   '@next/swc-linux-x64-gnu': [ '16.3.8' ],
+39 silly audit   '@next/swc-linux-x64-musl': [ '16.3.8' ],
+39 silly audit   '@next/swc-win32-arm64-msvc': [ '16.3.8' ],
+39 silly audit   '@next/swc-win32-x64-msvc': [ '16.3.8' ],
+39 silly audit   '@swc/helpers': [ '0.5.23' ],
+39 silly audit   'baseline-browser-mapping': [ '2.11.26' ],
+39 silly audit   'caniuse-lite': [ '1.0.30001814' ],
+39 silly audit   'client-only': [ '0.0.1' ],
+39 silly audit   'detect-libc': [ '2.1.2' ],
+39 silly audit   gsap: [ '3.15.0' ],
+39 silly audit   'lucide-react': [ '1.49.0' ],
+39 silly audit   nanoid: [ '3.3.19' ],
+39 silly audit   next: [ '16.3.8' ],
+39 silly audit   picocolors: [ '1.1.1' ],
+39 silly audit   postcss: [ '8.5.23' ],
+39 silly audit   react: [ '19.3.0' ],
+39 silly audit   'react-dom': [ '19.3.0' ],
+39 silly audit   scheduler: [ '0.28.0' ],
+39 silly audit   semver: [ '7.8.5' ],
+39 silly audit   sharp: [ '0.35.5' ],
+39 silly audit   'source-map-js': [ '1.2.2' ],
+39 silly audit   'styled-jsx': [ '5.1.6' ],
+39 silly audit   three: [ '0.186.1' ],
+39 silly audit   tslib: [ '2.8.1' ],
+39 silly audit   'framer-motion': [ '13.5.0' ],
+39 silly audit   'motion-dom': [ '13.5.0' ],
+39 silly audit   'motion-utils': [ '13.5.0' ]
+39 silly audit }
+40 http cache motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-13.5.0.tgz 1ms (cache hit)
+41 http cache framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-13.5.0.tgz 0ms (cache hit)
+42 silly tarball no local data for motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-13.5.0.tgz. Extracting by manifest.
+43 silly tarball no local data for framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-13.5.0.tgz. Extracting by manifest.
+44 http cache motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-13.5.0.tgz 0ms (cache hit)
+45 silly tarball no local data for motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-13.5.0.tgz. Extracting by manifest.
+46 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 329ms
+47 silly audit report {}
+48 http fetch GET 200 https://registry.npmjs.org/motion-utils/-/motion-utils-13.5.0.tgz 491ms (cache miss)
+49 http fetch GET 200 https://registry.npmjs.org/motion-dom/-/motion-dom-13.5.0.tgz 2484ms (cache miss)
+50 http fetch GET 200 https://registry.npmjs.org/framer-motion/-/framer-motion-13.5.0.tgz 2778ms (cache miss)
+51 silly ADD node_modules/motion-utils
+52 silly ADD node_modules/motion-dom
+53 silly ADD node_modules/framer-motion
+54 verbose cwd D:\MyWebsites\nexverse
+55 verbose os Windows_NT 10.0.26200
+56 verbose node v24.15.0
+57 verbose npm  v11.12.1
+58 notice
+58 notice New major version of npm available! 11.12.1 -> 12.2.0
+58 notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+58 notice To update run: npm install -g npm@12.2.0
+58 notice  { force: true, Symbol(proc-log.meta): true }
+59 verbose exit 0
+60 info ok
