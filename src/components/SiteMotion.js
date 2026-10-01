@@ -28,6 +28,7 @@ export default function SiteMotion() {
     const observeElement = (element) => {
       if (animated.has(element) || element.hasAttribute('data-reveal') || element.closest('.logo-marquee,.nav,.footer')) return;
       animated.add(element);
+      element.classList.add('fm-pending');
       observer.observe(element);
     };
 
@@ -40,6 +41,7 @@ export default function SiteMotion() {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return;
         observer.unobserve(entry.target);
+        entry.target.classList.remove('fm-pending');
         const control = animate(entry.target, { opacity: [0, 1], y: [12, 0] }, {
           duration: 0.58,
           delay: (index++ % 4) * 0.055,
